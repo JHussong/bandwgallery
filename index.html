@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/0c7fa9ce51.js" crossorigin="anonymous"></script>
+    <title>Photo Exhibit</title>
+</head>
+<body>
+    <nav>
+      <div class="logo">
+          <h2>The Photo Gallery</h2>
+      </div>
+      <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/gallery.html">Gallery</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+      <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+    </nav>
+
+    <header class="main">
+        <h1><span class="red-text">Black and White </span>Photo Exhibition</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, praesentium?</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="https://source.unsplash.com/random/400x400?black-and-white-car" alt="Photo 1" srcset="">
+            <div>
+                <h3>Photo Number One</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae veritatis deleniti et
+                voluptatem in laboriosam asperiores facere. Molestias voluptatum, laborum aspernatur
+                repudiandae nemo voluptatem impedit?</p>
+                <a href="#" class="btn">Purchase</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+                <img src="https://source.unsplash.com/random/400x400?black-and-white-camera" alt="Photo 2" srcset="">
+                <div>
+                    <h3>Photo Number Two</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae veritatis deleniti et
+                    voluptatem in laboriosam asperiores facere. Molestias voluptatum, laborum aspernatur
+                    repudiandae nemo voluptatem impedit?</p>
+                    <a href="#" class="btn">Purchase</a>
+                </div>
+            </section>
+
+            <section class="card" data-aos="fade-right">
+                    <img src="https://source.unsplash.com/random/400x400?black-and-white-city" alt="Photo 3" srcset="">
+                    <div>
+                        <h3>Photo Number Three</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae veritatis deleniti et
+                        voluptatem in laboriosam asperiores facere. Molestias voluptatum, laborum aspernatur
+                        repudiandae nemo voluptatem impedit?</p>
+                        <a href="#" class="btn">Purchase</a>
+                    </div>
+                </section>
+
+                <section class="card" data-aos="fade-left">
+                        <img src="https://source.unsplash.com/random/400x400?black-and-white-house" alt="Photo 4" srcset="">
+                        <div>
+                            <h3>Photo Number Four</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae veritatis deleniti et
+                            voluptatem in laboriosam asperiores facere. Molestias voluptatum, laborum aspernatur
+                            repudiandae nemo voluptatem impedit?</p>
+                            <a href="#" class="btn">Purchase</a>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-right">
+                            <img src="https://source.unsplash.com/random/400x400?black-and-white-moon" alt="Photo 5" srcset="">
+                            <div>
+                                <h3>Photo Number Five</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae veritatis deleniti et
+                                voluptatem in laboriosam asperiores facere. Molestias voluptatum, laborum aspernatur
+                                repudiandae nemo voluptatem impedit?</p>
+                                <a href="#" class="btn">Purchase</a>
+                            </div>
+                        </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>
+    <script src="../gallery.js"></script>
+</body>
+</html>
